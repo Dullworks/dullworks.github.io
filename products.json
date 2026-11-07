@@ -5,7 +5,7 @@
     "description": "A workbook that helps you sort and group a big pile of family photos. You work through who is in them, which pictures belong together, and what to do with the leftover stack.",
     "price": 12,
     "currency": "USD",
-    "buy_url": "",
-    "status": "coming_soon"
+    "buy_url": "https://buy.stripe.com/8x2bJ1aJR4mC9ya6l6aZi00",
+    "status": "live"
   }
 ]
