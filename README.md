@@ -43,5 +43,5 @@ Opening `index.html` as a file will not load `products.json`. Browsers block tha
 
 - `index.html` — shop
 - `privacy.html` — what we collect (Stripe, and email you send us)
-- `terms.html` — digital goods, delivery, 14-day refund
+- `terms.html` — digital goods, delivery, all sales final
 - `styles.css`, `site.js`, `favicon.svg` — layout, product list, icon
