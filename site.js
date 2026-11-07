@@ -69,6 +69,22 @@
 
     var title = document.createElement("h3");
     var page = safePage(item.page);
+    var image = safeImage(item.image);
+    var imageAlt = typeof item.image_alt === "string" ? item.image_alt.trim() : "";
+    if (image && imageAlt) {
+      var img = document.createElement("img");
+      img.className = "product-cover";
+      img.src = image;
+      img.alt = imageAlt;
+      if (page) {
+        var imageLink = document.createElement("a");
+        imageLink.href = page;
+        imageLink.appendChild(img);
+        article.appendChild(imageLink);
+      } else {
+        article.appendChild(img);
+      }
+    }
     if (page) {
       var titleLink = document.createElement("a");
       titleLink.href = page;
@@ -133,6 +149,13 @@
     if (!/^[a-z0-9][a-z0-9./-]*$/.test(value)) return "";
     if (value.indexOf("..") !== -1 || value.indexOf("//") !== -1) return "";
     if (!/\.html$/.test(value) && !/\/$/.test(value)) return "";
+    return value;
+  }
+
+  function safeImage(value) {
+    if (typeof value !== "string") return "";
+    if (!/^[a-z0-9][a-z0-9./-]*\.(?:png|jpe?g|webp|svg)$/.test(value)) return "";
+    if (value.indexOf("..") !== -1 || value.indexOf("//") !== -1 || value.indexOf("/d/") !== -1) return "";
     return value;
   }
 
