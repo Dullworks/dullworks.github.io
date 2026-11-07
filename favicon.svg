@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img">
+  <title>Dullworks</title>
+  <rect width="32" height="32" fill="#2f4336"/>
+  <rect x="5" y="5" width="22" height="22" fill="none" stroke="#f3efe6" stroke-width="1.5"/>
+  <path fill="#f3efe6" fill-rule="evenodd" d="M9 8h6.2C20.4 8 24 11.2 24 16s-3.6 8-8.8 8H9V8zm3.2 3.1v9.8h2.7c2.7 0 4.3-1.7 4.3-4.9s-1.6-4.9-4.3-4.9h-2.7z"/>
+</svg>
