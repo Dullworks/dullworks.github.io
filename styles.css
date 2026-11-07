@@ -193,6 +193,15 @@ p {
   margin: 0.45rem 0 0;
 }
 
+.product-cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.85rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+}
+
 .product-foot {
   display: flex;
   flex-wrap: wrap;
@@ -347,6 +356,20 @@ address a {
 .buy-row .price,
 .buy-row .buy {
   margin: 0;
+}
+
+.closing-buy {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+}
+
+.closing-buy p {
+  margin: 0.85rem 0 0;
+}
+
+.closing-buy p:first-child {
+  margin-top: 0;
 }
 
 @media (min-width: 40rem) {

@@ -6,6 +6,9 @@
     "price": 12,
     "currency": "USD",
     "buy_url": "https://buy.stripe.com/8x2bJ1aJR4mC9ya6l6aZi00",
+    "page": "family-photo-grouping-workbook.html",
+    "image": "images/family-photo-grouping-workbook/cover.png",
+    "image_alt": "Cover for the Family-Photo Grouping Workbook: enter names once, check your groups, and print your list.",
     "status": "live"
   },
   {
