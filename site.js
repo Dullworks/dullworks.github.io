@@ -68,7 +68,15 @@
     if (id) article.id = "product-" + id;
 
     var title = document.createElement("h3");
-    title.textContent = item.name.trim();
+    var page = safePage(item.page);
+    if (page) {
+      var titleLink = document.createElement("a");
+      titleLink.href = page;
+      titleLink.textContent = item.name.trim();
+      title.appendChild(titleLink);
+    } else {
+      title.textContent = item.name.trim();
+    }
     article.appendChild(title);
 
     if (typeof item.description === "string" && item.description.trim()) {
@@ -118,6 +126,14 @@
   function safeSlug(value) {
     if (typeof value !== "string") return "";
     return /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(value) ? value : "";
+  }
+
+  function safePage(value) {
+    if (typeof value !== "string") return "";
+    if (!/^[a-z0-9][a-z0-9./-]*$/.test(value)) return "";
+    if (value.indexOf("..") !== -1 || value.indexOf("//") !== -1) return "";
+    if (!/\.html$/.test(value) && !/\/$/.test(value)) return "";
+    return value;
   }
 
   function safeHttpUrl(value) {

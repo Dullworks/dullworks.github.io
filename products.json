@@ -7,5 +7,15 @@
     "currency": "USD",
     "buy_url": "https://buy.stripe.com/8x2bJ1aJR4mC9ya6l6aZi00",
     "status": "live"
+  },
+  {
+    "name": "Two-Parent Christmas Gift Tracker",
+    "slug": "two-parent-gift-tracker",
+    "description": "When two adults split the Christmas shopping, it's easy to lose track of who bought what, and to end up with one child getting more than the others. This workbook keeps one shared list, shows each child's gift count and spending side by side, and flags online orders that might miss the gift date or a return window.",
+    "price": 9,
+    "currency": "USD",
+    "buy_url": "https://buy.stripe.com/bJe8wP9FN06m25I10MaZi02",
+    "page": "two-parent-gift-tracker.html",
+    "status": "live"
   }
 ]
