@@ -17,5 +17,15 @@
     "buy_url": "https://buy.stripe.com/bJe8wP9FN06m25I10MaZi02",
     "page": "two-parent-gift-tracker.html",
     "status": "live"
+  },
+  {
+    "name": "Cookie Box Planner",
+    "slug": "cookie-box-planner",
+    "description": "Paste your own recipes, set how many boxes you're giving and what goes in each, and the planner does the rest. It works out how many whole batches to make, builds a dated plan for mixing, freezing, thawing and baking that counts back from your giving day, and gives you one combined shopping list in store pack sizes.",
+    "price": 12,
+    "currency": "USD",
+    "buy_url": "https://buy.stripe.com/14A4gz9FN4mC25IfVGaZi01",
+    "page": "cookie-box-planner.html",
+    "status": "live"
   }
 ]
