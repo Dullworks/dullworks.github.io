@@ -30,5 +30,17 @@
     "buy_url": "https://buy.stripe.com/14A4gz9FN4mC25IfVGaZi01",
     "page": "cookie-box-planner.html",
     "status": "live"
+  },
+  {
+    "name": "Holiday Bundle",
+    "slug": "holiday-bundle",
+    "description": "Two planners for the busy part of December. The gift tracker keeps one shared gift list for two adults and shows each child's gift count and spending side by side. The cookie box planner takes your own recipes and works out the batches, a dated bake-and-freeze plan and one shopping list.",
+    "price": 17,
+    "currency": "USD",
+    "buy_url": "https://buy.stripe.com/8x26oHcRZ1aq8u6fVGaZi03",
+    "page": "holiday-bundle.html",
+    "image": "assets/holiday-bundle/cover.png",
+    "image_alt": "Cover for the Holiday Bundle: the Two-Parent Christmas Gift Tracker and the Cookie Box Planner, two digital downloads in one zip.",
+    "status": "live"
   }
 ]
