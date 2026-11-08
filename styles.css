@@ -86,6 +86,12 @@ a:visited {
   gap: 0.85rem;
 }
 
+.title-row a {
+  display: block;
+  line-height: 0;
+  text-decoration: none;
+}
+
 .title-row h1 {
   margin: 0;
 }
@@ -142,8 +148,8 @@ h1 {
 
 .brand img {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
 }
 
 main section,
