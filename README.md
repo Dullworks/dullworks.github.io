@@ -62,6 +62,7 @@ Opening `index.html` as a file will not load `products.json`. Browsers block tha
 ## Pages
 
 - `index.html` — shop
+- `free-gift-budget-sheet.html` — free one-page holiday gift budget sheet
 - `privacy.html` — what we collect (Stripe, and email you send us)
 - `terms.html` — digital goods, delivery, all sales final
 - `styles.css`, `site.js`, `favicon.svg` — layout, product list, icon
