@@ -378,6 +378,62 @@ address a {
   margin-top: 0;
 }
 
+.embeddable-buttondown-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.65rem;
+  max-width: 24rem;
+  margin-top: 1rem;
+  padding: 1rem 1.1rem 1.05rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+}
+
+.embeddable-buttondown-form label {
+  font-weight: 700;
+}
+
+.embeddable-buttondown-form input[type="email"] {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  appearance: none;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+  min-height: 44px;
+  min-width: 7rem;
+  padding: 0.6rem 1.15rem;
+  border: 0;
+  border-radius: 0;
+  background: var(--stamp);
+  color: var(--stamp-ink);
+  font: inherit;
+  line-height: 1.2;
+  cursor: pointer;
+  appearance: none;
+}
+
+.embeddable-buttondown-form input[type="submit"]:hover {
+  background: #24362b;
+}
+
+.embeddable-buttondown-form p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.embeddable-buttondown-form p a {
+  color: var(--muted);
+}
+
 @media (min-width: 40rem) {
   body > .page {
     padding-top: 2.25rem;
@@ -406,6 +462,11 @@ address a {
   .buy {
     display: block;
   }
+
+  .embeddable-buttondown-form input[type="submit"] {
+    display: block;
+    width: 100%;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -425,7 +486,8 @@ address a {
     display: none;
   }
 
-  .buy {
+  .buy,
+  .embeddable-buttondown-form input[type="submit"] {
     border: 1px solid #000;
     background: #fff;
     color: #000;
