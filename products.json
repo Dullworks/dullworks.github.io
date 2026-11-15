@@ -42,5 +42,29 @@
     "image": "assets/holiday-bundle/cover.png",
     "image_alt": "Cover for the Holiday Bundle: the Two-Parent Christmas Gift Tracker and the Cookie Box Planner, two digital downloads in one zip.",
     "status": "live"
+  },
+  {
+    "name": "Christmas Morning Gift Hunt",
+    "slug": "christmas-gift-hunt",
+    "description": "Each kid gets their own colour, their own trail and clues they can read. Tick the hiding spots you really have, and the builder gives every kid a separate trail, so nobody races a sibling to the same spot. Then print the clue cards, a parent hide sheet and an answer key.",
+    "price": 9,
+    "currency": "USD",
+    "buy_url": "https://buy.stripe.com/fZu5kD05d1aq9yadNyaZi04",
+    "page": "christmas-gift-hunt.html",
+    "image": "images/christmas-gift-hunt/cover.jpg",
+    "image_alt": "Cover for the Christmas Morning Gift Hunt, showing red, green, gold and blue clue cards for a picture clue, a rhyme, a riddle and a secret letter-shift code.",
+    "status": "live"
+  },
+  {
+    "name": "Holiday Thank-You Kit",
+    "slug": "holiday-thank-you-kit",
+    "description": "In December there can be ten or more people to thank besides family: class teachers, aides, the bus driver, coaches, daycare staff, the sitter, the mail carrier. Type their names once. The kit gives each person a give-by date, shows who is overdue, and prints matching gift card holders and tags with their name on them.",
+    "price": 9,
+    "currency": "USD",
+    "buy_url": "https://buy.stripe.com/bJe14n7xFbP411E5h2aZi05",
+    "page": "holiday-thank-you-kit.html",
+    "image": "images/holiday-thank-you-kit/cover.jpg",
+    "image_alt": "Cover for the Holiday Thank-You Kit, showing name-printed gift card holders that say To, a thank-you line and From.",
+    "status": "live"
   }
 ]
