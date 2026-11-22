@@ -12,6 +12,42 @@
     "status": "live"
   },
   {
+    "name": "Youth Sports Team-Parent Kit",
+    "slug": "youth-sports-team-parent-kit",
+    "description": "A parent or coach who just got asked to run snacks, sideline duties and the roster can put the season in one offline file. Add the families and the schedule, then build a fair rotation. Print the binder pages, or send a plain text list. Households take one turn, even when two siblings are on the team.",
+    "price": 15,
+    "currency": "USD",
+    "buy_url": "https://buy.stripe.com/8x28wP7xFf1gaCe9xiaZi06",
+    "page": "youth-sports-team-parent-kit.html",
+    "image": "images/youth-sports-team-parent-kit/cover.jpg",
+    "image_alt": "Cover for the Youth Sports Team-Parent Kit, showing a filled snack and duty rotation from a fictional winter basketball example.",
+    "status": "live"
+  },
+  {
+    "name": "School-Week Visual Routine Kit",
+    "slug": "school-week-routine-kit",
+    "description": "A parent of one, two or three school-age kids can set the daily picture-and-word steps, then fill a board for this week: drop-off, pickup, after-school plans, and what to pack each day. Print the charts, the cut-out cards and the weekly board. No account is needed.",
+    "price": 12,
+    "currency": "USD",
+    "buy_url": "https://buy.stripe.com/9B69AT8BJ5qG6lYbFqaZi07",
+    "page": "school-week-routine-kit.html",
+    "image": "images/school-week-routine-kit/cover.jpg",
+    "image_alt": "Cover for the School-Week Visual Routine Kit, showing a this-week board for drop-off, pickup, after-school plans and what to bring each day.",
+    "status": "live"
+  },
+  {
+    "name": "Leftover-First Weekly Meal Planner",
+    "slug": "leftover-first-meal-planner",
+    "description": "A household cook can paste or enter usual dinners, list what is already in the fridge or pantry, and fill a week leftover-first: a cook-once dinner feeds a planned leftover night or lunch, and what is on hand is used before new ingredients. The planner then builds one grocery list, grouped by store section, that subtracts what is already on hand. Print the plan and the list. No account is needed.",
+    "price": 12,
+    "currency": "USD",
+    "buy_url": "https://buy.stripe.com/14A3cv3hp7yO39MgZKaZi08",
+    "page": "leftover-first-meal-planner.html",
+    "image": "images/leftover-first-meal-planner/cover.jpg",
+    "image_alt": "Cover for the Leftover-First Weekly Meal Planner, showing a week filled leftover-first with lunch and dinner slots.",
+    "status": "live"
+  },
+  {
     "name": "Two-Parent Christmas Gift Tracker",
     "slug": "two-parent-gift-tracker",
     "description": "When two adults split the Christmas shopping, it's easy to lose track of who bought what, and to end up with one child getting more than the others. This workbook keeps one shared list, shows each child's gift count and spending side by side, and flags online orders that might miss the gift date or a return window.",
